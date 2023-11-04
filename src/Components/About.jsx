@@ -23,31 +23,19 @@ const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+const description = "I'm Dineth Siriwardana, an undergraduate specializing in Information and Communication Technology at the Faculty of Technology, University of Ruhuna. My interests include creative problem-solving, leadership, and pressure-handling. You can connect with me on LinkedIn: [Dineth Siriwardana](https://www.linkedin.com/in/dinethsiriwardana/).";
 
-/**
- * List of some of skills or technologies you work on, are learning,
- * passionate about, or enjoy,
- */
 const skillsList = [
-  "Web design",
-  "User experience",
+  "Full Stack Developer",
+  "Flutter Expert",
   "Inclusive design",
   "Focus group testing",
   "Mobile user interfaces",
-  "Graphic design",
+  "Graphic design",s
 ];
 
-/**
- * Use this to give more information about what you are passionate about,
- * how you best work, or even a quote. This will help someone learn more
- * about you on a professional level.
- */
-const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
-
-const About = () => {
+const detailOrQuote = "I'm passionate about solving problems in new creative ways to drive innovation. Leveraging my UI/UX experience, I continually seek new and better ways to make technology accessible to all.";
+bout = () => {
   return (
     <section className="padding" id="about">
       <img className="background" src={image} alt={imageAltText} />
